@@ -1,0 +1,305 @@
+{
+ "n": 945,
+ "nAir": 599,
+ "tipos": {
+  "air": 599,
+  "sem_texto": 19,
+  "remai": 154,
+  "outro": 4,
+  "arr": 12,
+  "nt_com_air": 7,
+  "formulario": 125,
+  "processo_integral": 25
+ },
+ "agencias": {
+  "anatel": 84,
+  "antt": 61,
+  "anac": 62,
+  "ans": 38,
+  "anp": 46,
+  "aneel": 176,
+  "anvisa": 42,
+  "ana": 36,
+  "antaq": 24,
+  "anm": 14,
+  "ancine": 16
+ },
+ "anos": {
+  "2020": 67,
+  "2021": 73,
+  "2025": 45,
+  "2022": 64,
+  "2024": 60,
+  "2023": 71,
+  "2026": 12,
+  "2014": 16,
+  "2015": 11,
+  "2017": 34,
+  "2016": 33,
+  "2013": 6,
+  "2018": 51,
+  "2019": 53,
+  "2010": 1,
+  "2012": 1,
+  "2009": 1
+ },
+ "anoFonte": {
+  "assinatura": 575,
+  "coleta": 15,
+  "um leitor": 3,
+  "divergente": 6
+ },
+ "diagSecao": {
+  "claude|alternativa_nao_normativa": {
+   "fora": 88,
+   "na_secao": 97
+  },
+  "claude|alternativa_recomendada": {
+   "fora": 168,
+   "na_secao": 137
+  },
+  "claude|alternativas": {
+   "na_secao": 172,
+   "fora": 195
+  },
+  "claude|analise_risco_alternativas": {
+   "fora": 143,
+   "na_secao": 91
+  },
+  "claude|analise_sensibilidade": {
+   "fora": 44,
+   "na_secao": 28
+  },
+  "claude|base_legal": {
+   "na_secao": 1527,
+   "fora": 955
+  },
+  "claude|causas": {
+   "fora": 1058,
+   "na_secao": 1706
+  },
+  "claude|consequencias": {
+   "fora": 1159,
+   "na_secao": 1697
+  },
+  "claude|contribuicoes": {
+   "fora": 91,
+   "na_secao": 128
+  },
+  "claude|dimensoes_de_impacto": {
+   "na_secao": 255,
+   "fora": 217
+  },
+  "claude|estimativas": {
+   "fora": 1307,
+   "na_secao": 895
+  },
+  "claude|experiencia_internacional": {
+   "fora": 952,
+   "na_secao": 983
+  },
+  "claude|grupos_afetados": {
+   "na_secao": 2027,
+   "fora": 595
+  },
+  "claude|implementacao": {
+   "na_secao": 233,
+   "fora": 65
+  },
+  "claude|incertezas_declaradas": {
+   "fora": 224,
+   "na_secao": 117
+  },
+  "claude|indicadores": {
+   "na_secao": 608,
+   "fora": 232
+  },
+  "claude|mecanismos_participacao": {
+   "fora": 439,
+   "na_secao": 511
+  },
+  "claude|metas_quantitativas": {
+   "fora": 159,
+   "na_secao": 10
+  },
+  "claude|metodo_comparacao": {
+   "na_secao": 248,
+   "fora": 217
+  },
+  "claude|n_alternativas": {
+   "na_secao": 164,
+   "fora": 159
+  },
+  "claude|natureza_problema": {
+   "na_secao": 218,
+   "fora": 175
+  },
+  "claude|objetivos": {
+   "na_secao": 1017,
+   "fora": 670
+  },
+  "claude|participacao_social": {
+   "fora": 104,
+   "na_secao": 165
+  },
+  "claude|participantes": {
+   "fora": 874,
+   "na_secao": 959
+  },
+  "claude|problema": {
+   "na_secao": 202,
+   "fora": 190
+  },
+  "claude|resultados_esperados": {
+   "fora": 2162,
+   "na_secao": 222
+  },
+  "claude|status_quo_considerado": {
+   "na_secao": 191,
+   "fora": 165
+  },
+  "claude|taxa_desconto": {
+   "fora": 7,
+   "na_secao": 4
+  },
+  "claude|tendencia_declarada": {
+   "fora": 170,
+   "na_secao": 104
+  },
+  "glm|alternativa_nao_normativa": {
+   "fora": 68,
+   "na_secao": 63
+  },
+  "glm|alternativa_recomendada": {
+   "fora": 138,
+   "na_secao": 112
+  },
+  "glm|alternativas": {
+   "na_secao": 121,
+   "fora": 197
+  },
+  "glm|analise_risco_alternativas": {
+   "fora": 117,
+   "na_secao": 73
+  },
+  "glm|analise_sensibilidade": {
+   "na_secao": 34,
+   "fora": 34
+  },
+  "glm|base_legal": {
+   "na_secao": 1311,
+   "fora": 1459
+  },
+  "glm|causas": {
+   "fora": 593,
+   "na_secao": 1115
+  },
+  "glm|consequencias": {
+   "fora": 672,
+   "na_secao": 1044
+  },
+  "glm|contribuicoes": {
+   "fora": 45,
+   "na_secao": 109
+  },
+  "glm|dimensoes_de_impacto": {
+   "na_secao": 181,
+   "fora": 179
+  },
+  "glm|estimativas": {
+   "fora": 1387,
+   "na_secao": 709
+  },
+  "glm|experiencia_internacional": {
+   "fora": 493,
+   "na_secao": 556
+  },
+  "glm|grupos_afetados": {
+   "na_secao": 1585,
+   "fora": 409
+  },
+  "glm|implementacao": {
+   "na_secao": 182,
+   "fora": 67
+  },
+  "glm|incertezas_declaradas": {
+   "fora": 127,
+   "na_secao": 69
+  },
+  "glm|indicadores": {
+   "na_secao": 432,
+   "fora": 184
+  },
+  "glm|mecanismos_participacao": {
+   "fora": 273,
+   "na_secao": 362
+  },
+  "glm|metas_quantitativas": {
+   "fora": 224,
+   "na_secao": 16
+  },
+  "glm|metodo_comparacao": {
+   "na_secao": 195,
+   "fora": 169
+  },
+  "glm|n_alternativas": {
+   "fora": 37,
+   "na_secao": 33
+  },
+  "glm|natureza_problema": {
+   "na_secao": 173,
+   "fora": 143
+  },
+  "glm|objetivos": {
+   "na_secao": 778,
+   "fora": 485
+  },
+  "glm|participacao_social": {
+   "fora": 59,
+   "na_secao": 97
+  },
+  "glm|participantes": {
+   "fora": 603,
+   "na_secao": 661
+  },
+  "glm|problema": {
+   "na_secao": 167,
+   "fora": 197
+  },
+  "glm|resultados_esperados": {
+   "fora": 1293,
+   "na_secao": 96
+  },
+  "glm|status_quo_considerado": {
+   "na_secao": 118,
+   "fora": 106
+  },
+  "glm|taxa_desconto": {
+   "fora": 11,
+   "na_secao": 4
+  },
+  "glm|tendencia_declarada": {
+   "fora": 78,
+   "na_secao": 70
+  }
+ },
+ "comTexto": 945,
+ "integro": 945,
+ "nRecon": 945,
+ "estrutura": {
+  "todas as seções no modelo": 322,
+  "parte em 'outras'": 268,
+  "sem seções reconhecidas": 9
+ },
+ "leitores": [
+  {
+   "id": "claude",
+   "nome": "Claude Opus 5.5"
+  },
+  {
+   "id": "glm",
+   "nome": "GLM-5.2"
+  }
+ ],
+ "geradoEm": "2026-11-12"
+}
