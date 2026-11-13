@@ -639,7 +639,7 @@ function desenha(v, id) {
   ATUAL = [v, id];
   var f = { inicio: vInicio, acervo: vAcervo, busca: vBusca, comparar: vComparar, evolucao: vEvolucao, insights: vInsights, metodo: vMetodo }[v];
   app.innerHTML = v === 'doc' ? vDoc(id) : f();
-  document.title = (v === 'doc' ? 'Documento ' + id : (MENU.filter(function (m) { return m[0] === v; })[0] || ['', ''])[1]) + ' · Repositório de AIRs';
+  document.title = (v === 'doc' ? 'Documento ' + id : (MENU.filter(function (m) { return m[0] === v; })[0] || ['', ''])[1]) + ' · Repositório de AIRs · NDSR - UnB';
   if (v === 'inicio') desafio();
   if (v === 'doc') montaDoc(id);
 }
