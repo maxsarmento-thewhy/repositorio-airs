@@ -27,6 +27,10 @@ O site é estático: basta servir a pasta inteira (com `dados/`) por HTTPS. Qual
 
 Para testar localmente, rode `python -m http.server 8000` dentro da pasta e abra `http://127.0.0.1:8000/`. Abrir o `index.html` direto do disco não funciona, porque o navegador bloqueia a leitura dos arquivos de dados.
 
+## Ligação com o site do NDSR (2026-11-12)
+
+O portal não fica mais incorporado no Google Sites. A subpágina do NDSR (`/repositorio-airs`) mostra o logotipo do NDSR com link para o endereço do portal, que abre em página inteira. O cabeçalho do portal leva o logotipo (`ndsr_logo.png`) e "NDSR - UnB / Repositório de AIRs". O texto abaixo fica como referência caso se volte a incorporar.
+
 ## Incorporar no Google Sites
 
 No editor do Google Sites: **Inserir → Incorporar → Por URL**, cole o endereço HTTPS do site e escolha "Página inteira". O Google Sites só exibe páginas HTTPS que permitam ser mostradas dentro de outra página. O GitHub Pages permite: em 2026-11-12, uma página dele respondeu sem `X-Frame-Options` e sem `Content-Security-Policy`. As outras hospedagens não foram conferidas; para elas, verificar esses dois cabeçalhos.
