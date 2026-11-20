@@ -1,53 +1,69 @@
 {
  "n": 945,
- "nAir": 599,
+ "nAir": 659,
  "tipos": {
-  "air": 599,
-  "sem_texto": 19,
-  "remai": 154,
-  "outro": 4,
-  "arr": 12,
-  "nt_com_air": 7,
-  "formulario": 125,
-  "processo_integral": 25
+  "air": 659,
+  "outro": 3,
+  "remai": 157,
+  "formulario": 126
+ },
+ "pubs": {
+  "proprio": 845,
+  "nota_tecnica": 75,
+  "processo": 25
+ },
+ "nOcr": 55,
+ "nAirDedup": 599,
+ "deParaDedup": {
+  "sem_texto>outro": 3,
+  "sem_texto>air": 13,
+  "outro>air": 3,
+  "arr>air": 12,
+  "nt_com_air>air": 7,
+  "sem_texto>formulario": 2,
+  "outro>formulario": 1,
+  "formulario>remai": 2,
+  "sem_texto>remai": 1,
+  "processo_integral>air": 25
  },
  "agencias": {
-  "anatel": 84,
-  "antt": 61,
-  "anac": 62,
-  "ans": 38,
-  "anp": 46,
-  "aneel": 176,
+  "anatel": 111,
+  "antt": 70,
+  "anac": 65,
+  "ans": 47,
+  "anp": 54,
+  "aneel": 177,
   "anvisa": 42,
   "ana": 36,
-  "antaq": 24,
-  "anm": 14,
+  "antaq": 25,
+  "anm": 16,
   "ancine": 16
  },
  "anos": {
-  "2020": 67,
-  "2021": 73,
-  "2025": 45,
-  "2022": 64,
-  "2024": 60,
-  "2023": 71,
+  "2020": 72,
+  "2021": 76,
+  "2025": 52,
+  "2022": 66,
+  "2024": 64,
+  "2023": 76,
   "2026": 12,
-  "2014": 16,
-  "2015": 11,
-  "2017": 34,
-  "2016": 33,
-  "2013": 6,
-  "2018": 51,
+  "2014": 22,
+  "2015": 28,
+  "2017": 35,
+  "2016": 36,
+  "2013": 7,
+  "2018": 55,
   "2019": 53,
   "2010": 1,
-  "2012": 1,
-  "2009": 1
+  "2012": 2,
+  "2009": 1,
+  "2008": 1
  },
  "anoFonte": {
-  "assinatura": 575,
+  "assinatura": 631,
   "coleta": 15,
-  "um leitor": 3,
-  "divergente": 6
+  "um leitor": 4,
+  "divergente": 9
  },
  "diagSecao": {
   "claude|alternativa_nao_normativa": {
@@ -301,5 +317,5 @@
    "nome": "GLM-5.2"
   }
  ],
- "geradoEm": "2026-11-12"
+ "geradoEm": "2026-11-20"
 }

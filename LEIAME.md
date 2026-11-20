@@ -29,7 +29,7 @@ Para testar localmente, rode `python -m http.server 8000` dentro da pasta e abra
 
 ## Ligação com o site do NDSR (2026-11-12)
 
-O portal aparece incorporado, em moldura, na subpágina do NDSR: https://sites.google.com/ccom.unb.br/ndsr/projects/research-projects-links/repositorio-airs. O cabeçalho do site do NDSR, que já tem o logotipo, continua em cima, porque o Google Sites não deixa escondê-lo numa página só. Por isso o cabeçalho do portal traz só o texto "NDSR - UnB / Repositório de AIRs", sem o logotipo. `ndsr_logo.png` é usado apenas como ícone da aba.
+O portal aparece incorporado, em moldura, na subpágina do NDSR: https://sites.google.com/ccom.unb.br/ndsr/projects/research-projects-links/repositorio-airs. O cabeçalho do site do NDSR, que já tem o logotipo, continua em cima, porque o Google Sites não deixa escondê-lo numa página só. O cabeçalho do portal traz o logotipo (`ndsr_logo.png`) e "NDSR - UnB / Repositório de AIRs". Dentro da moldura do NDSR, o logotipo aparece duas vezes, o que foi aceito em 2026-11-13.
 
 ## Incorporar no Google Sites
 
