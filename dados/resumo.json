@@ -41,11 +41,11 @@
  },
  "anos": {
   "2020": 72,
-  "2021": 76,
+  "2021": 75,
   "2025": 52,
   "2022": 66,
   "2024": 64,
-  "2023": 76,
+  "2023": 77,
   "2026": 12,
   "2014": 22,
   "2015": 28,
@@ -60,10 +60,10 @@
   "2008": 1
  },
  "anoFonte": {
-  "assinatura": 631,
+  "assinatura": 626,
   "coleta": 15,
   "um leitor": 4,
-  "divergente": 9
+  "divergente": 14
  },
  "diagSecao": {
   "claude|alternativa_nao_normativa": {
@@ -297,6 +297,122 @@
   "glm|tendencia_declarada": {
    "fora": 78,
    "na_secao": 70
+  },
+  "gpt|alternativa_nao_normativa": {
+   "na_secao": 122,
+   "fora": 123
+  },
+  "gpt|alternativa_recomendada": {
+   "fora": 170,
+   "na_secao": 120
+  },
+  "gpt|alternativas": {
+   "na_secao": 166,
+   "fora": 219
+  },
+  "gpt|analise_risco_alternativas": {
+   "fora": 159,
+   "na_secao": 105
+  },
+  "gpt|analise_sensibilidade": {
+   "fora": 52,
+   "na_secao": 33
+  },
+  "gpt|base_legal": {
+   "na_secao": 1620,
+   "fora": 1925
+  },
+  "gpt|causas": {
+   "fora": 897,
+   "na_secao": 1409
+  },
+  "gpt|consequencias": {
+   "fora": 962,
+   "na_secao": 1494
+  },
+  "gpt|contribuicoes": {
+   "fora": 94,
+   "na_secao": 128
+  },
+  "gpt|dimensoes_de_impacto": {
+   "na_secao": 223,
+   "fora": 238
+  },
+  "gpt|estimativas": {
+   "fora": 1232,
+   "na_secao": 751
+  },
+  "gpt|experiencia_internacional": {
+   "fora": 838,
+   "na_secao": 853
+  },
+  "gpt|grupos_afetados": {
+   "na_secao": 2043,
+   "fora": 649
+  },
+  "gpt|implementacao": {
+   "na_secao": 215,
+   "fora": 65
+  },
+  "gpt|incertezas_declaradas": {
+   "fora": 242,
+   "na_secao": 129
+  },
+  "gpt|indicadores": {
+   "na_secao": 565,
+   "fora": 266
+  },
+  "gpt|mecanismos_participacao": {
+   "fora": 454,
+   "na_secao": 543
+  },
+  "gpt|metas_quantitativas": {
+   "fora": 205,
+   "na_secao": 18
+  },
+  "gpt|metodo_comparacao": {
+   "na_secao": 205,
+   "fora": 240
+  },
+  "gpt|n_alternativas": {
+   "na_secao": 146,
+   "fora": 166
+  },
+  "gpt|natureza_problema": {
+   "na_secao": 175,
+   "fora": 177
+  },
+  "gpt|objetivos": {
+   "na_secao": 984,
+   "fora": 663
+  },
+  "gpt|participacao_social": {
+   "fora": 100,
+   "na_secao": 172
+  },
+  "gpt|participantes": {
+   "fora": 812,
+   "na_secao": 994
+  },
+  "gpt|problema": {
+   "fora": 190,
+   "na_secao": 199
+  },
+  "gpt|resultados_esperados": {
+   "fora": 2018,
+   "na_secao": 222
+  },
+  "gpt|status_quo_considerado": {
+   "na_secao": 191,
+   "fora": 163
+  },
+  "gpt|taxa_desconto": {
+   "fora": 11,
+   "na_secao": 5
+  },
+  "gpt|tendencia_declarada": {
+   "fora": 213,
+   "na_secao": 91
   }
  },
  "comTexto": 945,
@@ -313,9 +429,13 @@
    "nome": "Claude Opus 5.5"
   },
   {
+   "id": "gpt",
+   "nome": "GPT-6.1-sol"
+  },
+  {
    "id": "glm",
    "nome": "GLM-5.2"
   }
  ],
- "geradoEm": "2026-11-21"
+ "geradoEm": "2026-11-24"
 }

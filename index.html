@@ -19,7 +19,7 @@
   --bg: #eef1f5; --sheet: #ffffff; --ink: #18212c; --ink-2: #445163; --muted: #687487; --line: #d6dce5;
   --band: #0f3446; --band-ink: #e7f0f5; --band-muted: #9fbccb; --band-line: #2a5266;
   --accent: #1d5c78; --accent-2: #2f7ea2; --accent-soft: #e1edf3; --hl: #f2b84b;
-  --claude: #b4560f; --glm: #6847c2; --glm-tint: #ece5fb;
+  --claude: #b4560f; --gpt: #008571; --glm: #6847c2; --glm-tint: #ece5fb;
   --ok: #2b7a47; --bad: #b0352d; --warn: #9a6400; --neutro: #5d6878;
   --aviso-bg: #fbf5e6; --aviso-line: #e3cf9b; --flash: #fff1b8;
   --s1: #d4e6ef; --s2: #a9cbdc; --s3: #6fa6c1; --s4: #3a7c9e; --s5: #1d5c78;
@@ -31,7 +31,7 @@
   --bg: #11151b; --sheet: #192029; --ink: #e5e9ef; --ink-2: #b3bdca; --muted: #8b96a5; --line: #2b3441;
   --band: #0b2633; --band-ink: #e3edf3; --band-muted: #8fb0c1; --band-line: #24485a;
   --accent: #74b6d4; --accent-2: #9ccbe1; --accent-soft: #1b3240; --hl: #f2b84b;
-  --claude: #f0a25c; --glm: #b9a4f4; --glm-tint: #2c2545;
+  --claude: #cc7c38; --gpt: #35a690; --glm: #9a83db; --glm-tint: #2c2545;
   --ok: #6cc48a; --bad: #f2827a; --warn: #e2b456; --neutro: #9aa5b4;
   --aviso-bg: #221e13; --aviso-line: #5b4b22; --flash: #4a3f12;
   --s1: #1c3542; --s2: #23506a; --s3: #2f6f92; --s4: #4f97bd; --s5: #8cc3dd; color-scheme: dark } }
@@ -39,7 +39,7 @@
   --bg: #11151b; --sheet: #192029; --ink: #e5e9ef; --ink-2: #b3bdca; --muted: #8b96a5; --line: #2b3441;
   --band: #0b2633; --band-ink: #e3edf3; --band-muted: #8fb0c1; --band-line: #24485a;
   --accent: #74b6d4; --accent-2: #9ccbe1; --accent-soft: #1b3240; --hl: #f2b84b;
-  --claude: #f0a25c; --glm: #b9a4f4; --glm-tint: #2c2545;
+  --claude: #cc7c38; --gpt: #35a690; --glm: #9a83db; --glm-tint: #2c2545;
   --ok: #6cc48a; --bad: #f2827a; --warn: #e2b456; --neutro: #9aa5b4;
   --aviso-bg: #221e13; --aviso-line: #5b4b22; --flash: #4a3f12;
   --s1: #1c3542; --s2: #23506a; --s3: #2f6f92; --s4: #4f97bd; --s5: #8cc3dd; color-scheme: dark }
@@ -257,7 +257,7 @@ svg.graf .alvo { fill: transparent }
 mark.m { background: transparent; color: inherit; cursor: pointer; border-radius: 2px }
 .marcas-on mark.m-claude { text-decoration: underline 2px var(--claude); text-underline-offset: 3px }
 .marcas-on mark.m-glm { background: var(--glm-tint) }
-.marcas-on mark.m-ambos { background: var(--glm-tint); text-decoration: underline 2px var(--claude); text-underline-offset: 3px }
+.marcas-on mark.m-gpt { box-shadow: inset 0 2px 0 var(--gpt) }
 .meta-sec { margin: 4px 0 14px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg) }
 .meta-sec > summary { cursor: pointer; padding: 8px 12px; font: 600 .75rem/1.2 var(--f-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--muted) }
 .meta-grade { display: grid; gap: 10px; padding: 0 12px 12px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) }
@@ -270,6 +270,7 @@ mark.m { background: transparent; color: inherit; cursor: pointer; border-radius
 .quem::before { content: ""; display: inline-block; width: 14px; height: 0; margin-right: 6px; vertical-align: middle }
 .q-claude::before { border-bottom: 2px solid var(--claude) }
 .q-glm::before { height: 8px; background: var(--glm-tint); border: 1px solid var(--glm) }
+.q-gpt::before { border-top: 2px solid var(--gpt) }
 .val { overflow-wrap: anywhere } .val ul { margin: 2px 0 0; padding-left: 1.1em; display: grid; gap: 2px }
 .nada { color: var(--muted); font-style: italic }
 .onde { font-size: .6875rem; color: var(--muted) }
